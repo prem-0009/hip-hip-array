@@ -78,7 +78,7 @@ console.log(symmetricalCapitals);
 // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end simply by adding them in the following line, and then console.log out each value individually.
 banner(6);
 const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
-fibonacciNumbers.splice(0,0,0);
+
 fibonacciNumbers.splice(fibonacciNumbers.length, 2, 22, 33);
 
 console.log(fibonacciNumbers);
